@@ -1,0 +1,87 @@
+export const db = [
+    {
+        id: 1,
+        name: 'Papa',
+        imagen: 'producto1.png',
+        description: 'Papa criolla fresca por kilo.',
+        price: 2500,
+        },
+        {
+        id: 2,
+        name: 'Lechuga',
+        imagen: 'producto2.png',
+        description: 'Lechuga crespa verde orgánica.',
+        price: 1800,
+        },
+        {
+        id: 3,
+        name: 'Cebolla',
+        imagen: 'producto3.png',
+        description: 'Cebolla cabezona blanca por kilo.',
+        price: 2200,
+        },
+        {
+        id: 4,
+        name: 'Papaya',
+        imagen: 'producto4.png',
+        description: 'Papaya dulce y madura por unidad.',
+        price: 3500,
+        },
+        {
+        id: 5,
+        name: 'Limón',
+        imagen: 'producto5.png',
+        description: 'Limón tahití fresco por libra.',
+        price: 1500,
+        },
+        {
+        id: 6,
+        name: 'Tomates',
+        imagen: 'producto6.png',
+        description: 'Tomate chonto fresco por kilo.',
+        price: 2700,
+        },
+        {
+        id: 7,
+        name: 'Manzana',
+        imagen: 'producto7.png',
+        description: 'Manzana roja importada por unidad.',
+        price: 2000,
+        },
+        {
+        id: 8,
+        name: 'Pepinos',
+        imagen: 'producto8.png',
+        description: 'Pepino cohombro fresco por kilo.',
+        price: 2300,
+        },
+        {
+        id: 9,
+        name: 'Mandarina',
+        imagen: 'producto9.png',
+        description: 'Mandarina jugosa por libra.',
+        price: 1900,
+        },
+        {
+        id: 10,
+        name: 'Mango',
+        imagen: 'producto10.png',
+        description: 'Mango de azúcar maduro por unidad.',
+        price: 2500,
+        },
+        {
+        id: 11,
+        name: 'Bananas',
+        imagen: 'producto11.png',
+        description: 'Banano bocadillo por kilo.',
+        price: 2800,
+        },
+        {
+        id: 12,
+        name: 'Brócoli',
+        imagen: 'producto12.png',
+        description: 'Brócoli verde fresco por unidad.',
+        price: 3000,
+        }
+    ];
+    
