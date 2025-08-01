@@ -1,14 +1,4 @@
-import { useMemo } from 'react'
-
-
-export default function Header({cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart}){
-
-
-    // state derivado
-
-    const isEmpy = useMemo( () => cart.length === 0)
-    const cartToral = useMemo ( () => cart.reduce((total, item) => total + (item.quantity * item.price), 0 ), [cart])
-
+export default function Header({cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart, isEmpy , cartToral}){
 
     return(
         <>
